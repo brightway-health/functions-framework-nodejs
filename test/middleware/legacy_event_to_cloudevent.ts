@@ -5,7 +5,7 @@ import {Response, Request} from 'express';
 import {
   splitResource,
   legacyEventToCloudEventMiddleware,
-} from '../../src/middelware/legacy_event_to_cloudevent';
+} from '../../src/middleware/legacy_event_to_cloudevent';
 import {CloudFunctionsContext} from '../../src/functions';
 import {EventConversionError} from '../../src/cloudevents';
 

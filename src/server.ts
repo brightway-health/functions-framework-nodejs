@@ -20,8 +20,8 @@ import {SignatureType} from './types';
 import {setLatestRes} from './invoker';
 import {registerFunctionRoutes} from './router';
 import {legacyPubSubEventMiddleware} from './pubsub_middleware';
-import {ceToLegacyEventMiddleware} from './middelware/ce_to_legacy_event';
-import {legacyEventToCloudEventMiddleware} from './middelware/legacy_event_to_cloudevent';
+import {ceToLegacyEventMiddleware} from './middleware/ce_to_legacy_event';
+import {legacyEventToCloudEventMiddleware} from './middleware/legacy_event_to_cloudevent';
 
 /**
  * Creates and configures an Express application and returns an HTTP server

@@ -5,7 +5,7 @@ import {Response, Request} from 'express';
 import {
   ceToLegacyEventMiddleware,
   parseSource,
-} from '../../src/middelware/ce_to_legacy_event';
+} from '../../src/middleware/ce_to_legacy_event';
 import {EventConversionError} from '../../src/cloudevents';
 
 const ceHeaders = (eventType: string, source: string) => ({
